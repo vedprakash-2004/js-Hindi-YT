@@ -1,4 +1,4 @@
-const { use } = require("react");
+// const { use } = require("react");   // ❌ React remove because Node cannot load react
 
 function sayMyName(){
     console.log("s");
@@ -33,4 +33,42 @@ function loginUserMessage(username = "sam"){
 }
 //    console.log(loginUserMessage("somu"))
 
-console.log(loginUserMessage("somu"))
+// console.log(loginUserMessage("somu"))
+
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 500))
+
+function calculateCartPrice(val1, val2,...num1){
+    return num1
+
+}
+
+// console.log(calculateCartPrice(200, 400, 2000))
+
+const user = {
+    username: "somu",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username}and price is ${anyobject.price}`);
+
+}
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondvalue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondvalue(myNewArray));
+
