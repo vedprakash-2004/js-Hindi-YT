@@ -33,6 +33,8 @@ const chai = () => {
 
 // const addTwo = (num1, num2) =>   num1 + num2
 
-const addTwo = (num1, num2) => (num1 + num2)
+// const addTwo = (num1, num2) => (num1 + num2)
+
+const addTwo = (num1, num2) => ({username: "somu"})
 console.log(addTwo(3, 4));
 
