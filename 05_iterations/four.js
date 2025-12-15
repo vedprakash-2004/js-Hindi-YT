@@ -17,12 +17,12 @@ for(const key in programming){
     // }
 }
 
-const map = new Map()
-map.set('USA',"United States of America")
-map.set('IN', "India")
-map.set('Fr', "France")
-map.set('IN', "India")
+// const map = new Map()
+// map.set('USA',"United States of America")
+// map.set('IN', "India")
+// map.set('Fr', "France")
+// map.set('IN', "India")
 
-for(const key in map){
-    console.log(key);
-}
+// for(const key in map){
+//     console.log(key);
+// }
